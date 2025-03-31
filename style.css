@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.9416141456582633) 35%, rgba(0,212,255,1) 100%);
+}
+
+
+/* font scroll */
+.font-container {
+    width: 100%;
+    height: fit-content;
+    padding: 10px 0px;
+    background-color: #89cf9a;
+    overflow: hidden;
+}
+
+.first {
+    font-size: 2.2rem;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #282d35;
+    /* -webkit-text-stroke: 1px #282d35; */
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+
+.brand-slider-wrapper {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+  }
+
+  .b-slider {
+    display: flex;
+  }
+
+  .brand-card-slide {
+    width: 250px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
